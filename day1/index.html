@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clean Landing Page</title>
+  <!-- Link to CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="logo">Muzammil Alam</a>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Transform Your Digital Presence</h1>
+            <p>I'm a passionate web developer dedicated to creating stunning, responsive websites that help businesses thrive online.</p>
+            <a href="#contact" class="cta-button">Start Your Project</a>
+          </div>
+          <div class="hero-image">
+            <div class="image-placeholder" >
+              <img src="https://images.pexels.com/photos/4974910/pexels-photo-4974910.jpeg" alt="boypic">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-icon html"><img src="https://imgs.search.brave.com/nWq5bwwB0OkrIALM4Px1Q-ze8SQRqZx4sYJldJlAWrc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni84ODgvODg4OTA5/LnBuZz9zZW10PWFp/c193aGl0ZV9sYWJl/bA" alt="html"></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon css"><img src="https://imgs.search.brave.com/u9R6PktdYpss2kbje5gFKTlEEyn0EtKL0h74apSv8G4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8yMzA1LzIzMDU4/NTMucG5nP3NlbXQ9/YWlzX3doaXRlX2xh/YmVs" alt="css"></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon js"><img src="https://imgs.search.brave.com/ss6OZMkwfdk4MKnfvvTjL__x7BfzZyOQmPZA9vpAjGM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni85Njk1Lzk2OTU3/MjAucG5nP3NlbXQ9/YWlzX3doaXRlX2xh/YmVs" alt="js"></div>
+          
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon node"><img src="https://imgs.search.brave.com/qx2vCtKEqODjJGHT8RpvsYA9mlYSaHKZJq7fP8QWDj8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ub2Rl/anMub3JnL3N0YXRp/Yy9sb2dvcy9ub2Rl/anNTdGFja2VkTGln/aHQuc3Zn" alt="node js "></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon express"><img src="https://imgs.search.brave.com/X5fTeJlXs4t_IvNzsykgEbwevUJy3UgmcUoQa7BManY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92ZWN0/b3JpZmllZC5jb20v/aW1hZ2VzL2V4cHJl/c3MtanMtaWNvbi0x/Mi5wbmc" alt="express js "></div>
+         
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon mongo"><img src="https://imgs.search.brave.com/8jBexoxk4QIvcZNmEwirlPkTkl3j2yRYTGjni1OuqNs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/dHlwLnVzL2ZpbGUv/bW9uZ29kYi5zdmc" alt="mongo db"></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education" id="about">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-card">
+        <h3>Bachelor of Computer Applications (BCA)</h3>
+        <p>Currently pursuing 3rd Year</p>
+        <p>Brainware University</p>
+        <span class="batch">Batch 2023-26</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card" onclick="openModal('habitModal')">
+          <h3>Habit Tracker</h3>
+          <p>A comprehensive web application to help users track their daily habits and build positive routines.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Node.js</span>
+          </div>
+        </div>
+        <div class="project-card" onclick="openModal('foodModal')">
+          <h3>Food Website</h3>
+          <p>An elegant food delivery website with modern design and interactive user interface.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Express.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <form class="contact-form" onsubmit="submitForm(event)">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <div id="habitModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('habitModal')">&times;</span>
+      <h2>Habit Tracker Project</h2>
+      <p><strong>Overview:</strong> The Habit Tracker is a powerful web application designed to help users build and maintain positive daily habits.</p>
+      <h3>Key Features:</h3>
+      <ul>
+        <li>Track multiple habits simultaneously</li>
+        <li>Visual progress indicators and streaks</li>
+        <li>Daily, weekly, and monthly analytics</li>
+        <li>Customizable habit categories</li>
+        <li>Reminder notifications</li>
+        <li>Progress sharing and motivation</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="foodModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('foodModal')">&times;</span>
+      <h2>Food Website Project</h2>
+      <p><strong>Overview:</strong> An elegant and responsive food delivery website featuring modern design principles and seamless user experience.</p>
+      <h3>Key Features:</h3>
+      <ul>
+        <li>Interactive menu with categories</li>
+        <li>Shopping cart functionality</li>
+        <li>User authentication system</li>
+        <li>Order tracking and history</li>
+        <li>Responsive design for all devices</li>
+        <li>Payment integration ready</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="https://x.com/muzammilalamx23" aria-label="Twitter">t</a>
+          <a href="#" aria-label="Instagram">i</a>
+          <a href="https://www.linkedin.com/in/md-muzammil-alam-" aria-label="LinkedIn">in</a>
+        </div>
+        <div class="copyright">
+          © 2025 Brand. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Link to JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
