@@ -26,10 +26,13 @@ A responsive personal portfolio website showcasing my skills, education, project
 
  📂 Project Structure  
 
-  portfolio/
+   portfolio/
    ├── index.html
+   |
    ├── style.css
+   |
    ├── script.js 
+   |
    └── README.md 
 
 
